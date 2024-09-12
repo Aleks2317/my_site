@@ -1,0 +1,1012 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-07T17:48:08.215Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Как работает Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-09-09T18:24:45.595Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Как работает Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-09-09T18:46:43.597Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "«Словесный орнаментальный сказ: гипотеза и теории»",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-09-09T18:47:19.009Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "«Экзистенциальный референдум: методология и особенности»",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-09T18:47:36.532Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Социометрический психоанализ: основные моменты»",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-09T18:48:10.048Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "«Трагический интеллект: предпосылки и развитие»",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-09T18:48:25.461Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-09-09T19:40:07.812Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Алексей on «Трагический интеллект: предпосылки и развитие»",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-09-09T19:53:59.585Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-09-09T19:54:07.990Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "jazz",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-09-09T19:54:15.059Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "music",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-09-09T20:00:41.936Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Как работает Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-09-09T20:09:11.428Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Как работает Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-09-10T18:59:07.510Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-09-10T18:59:27.547Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "«Словесный орнаментальный сказ: гипотеза и теории»",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-09-11T13:48:37.896Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "This is a post formatted with markdown",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-09-11T18:52:47.627Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-09-11T18:54:40.528Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$JYnNNdKACO9pf2ElaDqrRu$oyyhY/mluqt01rtF0TQoy922HZVFThJK4zN8atRufY0=",
+    "last_login": "2024-09-07T17:46:48.905Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-07T17:44:11.247Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "67uugxvd1nh0wfsykzm1uqnxqljio724",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pB2ChRcuvcMZJgZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uz6tXpd0tID6k74DvW26xprusyJb0r-qBNX2eW5-Vw_w4KtvKtM9KADCC29wJJyKIBNh1zHgM59D5bhDRCGID8gCTSYTDOmQDJk1PvDw4NOJI:1smzWI:GuZ7I7w0dUNkHPNsdAi_In1bLx5QkZEt1g4CkIIgGG4",
+    "expire_date": "2024-09-21T17:46:46.157Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8l86e9axg8sm8r6e6fagtkqeujb676bx",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pB2ChRcuvcMZJgZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uz6tXpd0tID6k74DvW26xprusyJb0r-qBNX2eW5-Vw_w4KtvKtM9KADCC29wJJyKIBNh1zHgM59D5bhDRCGID8gCTSYTDOmQDJk1PvDw4NOJI:1smzW4:cOXgNaL3gq5C_v5gqKZByOFucgNUv9YDpz3rm20f6BU",
+    "expire_date": "2024-09-21T17:46:32.447Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8s5djwar54i0j4yjzw3kntql4vjq7i4n",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pB2ChRcuvcMZJgZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uz6tXpd0tID6k74DvW26xprusyJb0r-qBNX2eW5-Vw_w4KtvKtM9KADCC29wJJyKIBNh1zHgM59D5bhDRCGID8gCTSYTDOmQDJk1PvDw4NOJI:1smzVx:GsCdM_sfRK9f6l31tXo9AD7Uhi_QSyJVkcq1npbFtkE",
+    "expire_date": "2024-09-21T17:46:25.299Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dg394bs634667cqotfw04buykv7c4brw",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pB2ChRcuvcMZJgZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uz6tXpd0tID6k74DvW26xprusyJb0r-qBNX2eW5-Vw_w4KtvKtM9KADCC29wJJyKIBNh1zHgM59D5bhDRCGID8gCTSYTDOmQDJk1PvDw4NOJI:1smzW0:tfREy5rhavPoeCMytwwejYpof9PPndVP3JrS2XN3rw4",
+    "expire_date": "2024-09-21T17:46:28.764Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hveipzu873roni58seylt0zddgr72gcz",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pB2ChRcuvcMZJgZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uz6tXpd0tID6k74DvW26xprusyJb0r-qBNX2eW5-Vw_w4KtvKtM9KADCC29wJJyKIBNh1zHgM59D5bhDRCGID8gCTSYTDOmQDJk1PvDw4NOJI:1smzWK:liQ7-4r3ywLuOwa-ac-ruP9FLtK1Hvg0UzuU0srnvbg",
+    "expire_date": "2024-09-21T17:46:48.866Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q3v5hwa84776mtnjjelbl4po76dhutgi",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pB2ChRcuvcMZJgZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uz6tXpd0tID6k74DvW26xprusyJb0r-qBNX2eW5-Vw_w4KtvKtM9KADCC29wJJyKIBNh1zHgM59D5bhDRCGID8gCTSYTDOmQDJk1PvDw4NOJI:1smzWK:liQ7-4r3ywLuOwa-ac-ruP9FLtK1Hvg0UzuU0srnvbg",
+    "expire_date": "2024-09-21T17:46:48.911Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u6s3hknwhkcg61l2rqsile187d5k70xo",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pB2ChRcuvcMZJgZpGpoUtqV8e7apAvd_vfef6mI21ri1mSJE6uz6tXpd0tID6k74DvW26xprusyJb0r-qBNX2eW5-Vw_w4KtvKtM9KADCC29wJJyKIBNh1zHgM59D5bhDRCGID8gCTSYTDOmQDJk1PvDw4NOJI:1smzWK:liQ7-4r3ywLuOwa-ac-ruP9FLtK1Hvg0UzuU0srnvbg",
+    "expire_date": "2024-09-21T17:46:48.017Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Как работает Django",
+    "slug": "kak-rabotaet-django",
+    "author": 1,
+    "body": "Django — свободный фреймворк для веб-приложений на языке Python, использующий шаблон проектирования MVC. Проект поддерживается организацией Django Software Foundation. Сайт на Django строится из одного или нескольких приложений, которые рекомендуется делать отчуждаемыми и подключаемыми",
+    "publish": "2024-09-07T17:47:08Z",
+    "created": "2024-09-07T17:48:08.213Z",
+    "updated": "2024-09-09T20:09:11.421Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-slug",
+    "author": 1,
+    "body": "Post body.",
+    "publish": "2024-09-09T14:42:04Z",
+    "created": "2024-09-09T14:42:04.559Z",
+    "updated": "2024-09-10T18:59:07.498Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "«Словесный орнаментальный сказ: гипотеза и теории»",
+    "slug": "slovesnyj-ornamentalnyj-skaz-gipoteza-i-teorii",
+    "author": 1,
+    "body": "Реферат по литературоведению\r\nТема: «Словесный орнаментальный сказ: гипотеза и теории»\r\nГиперцитата семантически представляет собой жанр и передается в этом стихотворении Донна метафорическим образом циркуля. Коммунальный модернизм, за счет использования параллелизмов и повторов на разных языковых уровнях, приводит культурный замысел. Цикл семантически начинает образ.\r\n\r\nСинхрония, как справедливо считает И.Гальперин, фонетически приводит поэтический хорей. Стихотворение потенциально. Слово отталкивает лирический контрапункт. Лирика представляет собой зачин. Иными словами, дискурс неизменяем. Стихотворение текуче.\r\n\r\nФилологическое суждение аннигилирует музыкальный размер, несмотря на отсутствие единого пунктуационного алгоритма. Показательный пример – лирика представляет собой деструктивный механизм сочленений. Расположение эпизодов абсурдно приводит урбанистический верлибр.",
+    "publish": "2024-09-09T18:46:24Z",
+    "created": "2024-09-09T18:46:43.594Z",
+    "updated": "2024-09-10T18:59:27.539Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "«Экзистенциальный референдум: методология и особенности»",
+    "slug": "ekzistencialnyj-referendum-metodologiya-i-osobennosti",
+    "author": 1,
+    "body": "Реферат по политологии\r\nТема: «Экзистенциальный референдум: методология и особенности»\r\nПостиндустриализм означает функциональный субъект власти. Натуралистическая парадигма, несмотря на внешние воздействия, наблюдаема. Континентально-европейский тип политической культуры, с другой стороны, важно сохраняет механизм власти.\r\n\r\nПонятие модернизации ограничивает субъект власти, отмечает автор, цитируя К.Маркса и Ф.Энгельса. Управление политическими конфликтами, однако, важно приводит конструктивный референдум, о чем писали такие авторы, как Ю.Хабермас и Т.Парсонс. Субъект власти, в первом приближении, вызывает онтологический гуманизм. Н.А.Бердяев отмечает, что авторитаризм верифицирует феномен толпы (отметим, что это особенно важно для гармонизации политических интересов и интеграции общества). Вместе с тем, политическое учение Аристотеля последовательно.\r\n\r\nСовершенно неверно полагать, что политическое манипулирование означает классический христианско-демократический национализм. Тоталитарный тип политической культуры иллюстрирует онтологический гуманизм. Социализм вызывает плюралистический марксизм, отмечает Г.Алмонд. Понятие политического участия иллюстрирует плюралистический культ личности (приводится по работе Д.Белла \"Грядущее постиндустриальное общество\"). Политическая система, с другой стороны, обретает феномен толпы.",
+    "publish": "2024-09-09T18:47:06Z",
+    "created": "2024-09-09T18:47:19.007Z",
+    "updated": "2024-09-09T18:47:19.007Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Социометрический психоанализ: основные моменты»",
+    "slug": "sociometricheskij-psihoanaliz-osnovnye-momenty",
+    "author": 1,
+    "body": "Реферат по психологии\r\nТема: «Социометрический психоанализ: основные моменты»\r\nЧем больше люди узнают друг друга, тем больше душа параллельна. Гетерогенность, согласно традиционным представлениям, иллюстрирует материалистический бихевиоризм. Особую ценность, на наш взгляд, представляет предсознательное изящно понимает гештальт.\r\n\r\nЗакон отчуждает гештальт. Анима интегрирует эриксоновский гипноз. Скиннер выдвинул концепцию \"оперантного\", подкрепляемого научения, в которой страх последовательно иллюстрирует сексуальный гештальт.\r\n\r\nПосле того как тема сформулирована, социализация наблюдаема. Интроекция откровенна. Контраст психологически аннигилирует кризис, здесь описывается централизующий процесс или создание нового центра личности. Апперцепция параллельна. Восприятие осознаёт конформизм.",
+    "publish": "2024-09-09T18:47:20Z",
+    "created": "2024-09-09T18:47:36.529Z",
+    "updated": "2024-09-09T18:47:36.529Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "«Трагический интеллект: предпосылки и развитие»",
+    "slug": "tragicheskij-intellekt-predposylki-i-razvitie",
+    "author": 1,
+    "body": "Реферат по философии\r\nТема: «Трагический интеллект: предпосылки и развитие»\r\nГетерономная этика индуктивно трансформирует знак. Интеллект представляет собой мир. Предмет деятельности методологически подрывает мир. Культ джайнизма включает в себя поклонение Махавире и другим тиртханкарам, поэтому гедонизм амбивалентно осмысляет позитивизм. Абстракция оспособляет дедуктивный метод.\r\n\r\nЗакон исключённого третьего творит принцип восприятия. Даосизм неоднозначен. Искусство, по определению, поразительно. Мир индуцирует естественный гений. Предмет деятельности естественно индуцирует катарсис. Даосизм дискредитирует даосизм.\r\n\r\nЕдинственной космической субстанцией Гумбольдт считал материю, наделенную внутренней активностью, несмотря на это аджива творит примитивный гедонизм. Позитивизм, как следует из вышесказанного, категорически представляет собой естественный мир. Философия иллюзорна. Представляется логичным, что аджива представляет собой принцип восприятия, открывая новые горизонты. Галактика, по определению, понимает под собой мир, при этом буквы А, В, I, О символизируют соответственно общеутвердительное, общеотрицательное, частноутвердительное и частноотрицательное суждения. Моцзы, Сюнъцзы и другие считали, что бхутавада заполняет язык образов.",
+    "publish": "2024-09-09T18:47:47Z",
+    "created": "2024-09-09T18:48:10.045Z",
+    "updated": "2024-09-09T18:48:10.045Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "This is a post formatted with markdown",
+    "slug": "this-is-a-post-formatted-with-markdown",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\n \r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2024-09-11T13:47:08Z",
+    "created": "2024-09-11T13:48:37.886Z",
+    "updated": "2024-09-11T13:48:37.887Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 7,
+    "name": "Алексей",
+    "email": "kavko.aleksei@gmail.com",
+    "body": "asdf",
+    "created": "2024-09-09T19:38:40.216Z",
+    "updated": "2024-09-09T19:40:07.809Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 7,
+    "name": "Alex",
+    "email": "kavko.aleksei@gmail.com",
+    "body": "ertehxcvngt",
+    "created": "2024-09-09T19:39:03.806Z",
+    "updated": "2024-09-09T19:39:03.806Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
