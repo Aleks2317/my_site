@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.sitemaps',
     'django.contrib.postgres',
+    'accounts.apps.AccountsConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -142,3 +144,9 @@ EMAIL_HOST_PASSWORD = 'nzzsfwkocayqgxkx'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
+""" 
+чтобы пользователи при входе и выходе перенаправлялись на главную страницу сайта:"""
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
+
