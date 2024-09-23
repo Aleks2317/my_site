@@ -1,16 +1,31 @@
 from django.urls import reverse_lazy
 from django.views import generic
-from django.contrib.auth.views import LoginView
-from .forms import SignUpForm, LoginForm
+from django.contrib.auth.views import LoginView, PasswordChangeView
+from .forms import SignUpForm, LoginForm, UpdateProfileForm, UpdateUserForm
 from django.shortcuts import render, redirect
 from django.contrib import messages
+from django.contrib.messages.views import SuccessMessageMixin
 from django.contrib.auth.decorators import login_required
 
 
 # Декоратор login_required ограничивает доступ для незарегистрированных пользователей
 @login_required
 def profile(request):
-    return render(request, 'registration/profile.html')
+    if request.method == 'POST':
+        user_form = UpdateUserForm(request.POST, instance=request.user)
+        profile_form = UpdateProfileForm(request.POST, request.FILES, instance=request.user.profile)
+
+        if user_form.is_valid() and profile_form.is_valid():
+            user_form.save()
+            profile_form.save()
+            messages.success(request, 'Your profile is updated successfully')
+            return redirect(to='users-profile')
+    else:
+        user_form = UpdateUserForm(instance=request.user)
+        profile_form = UpdateProfileForm(instance=request.user.profile)
+
+    return render(request, 'registration/profile.html',
+                  {'user_form': user_form, 'profile_form': profile_form})
 
 
 class SignUpView(generic.CreateView):
@@ -56,3 +71,10 @@ class CustomLoginView(LoginView):
 
         # В противном случае сеанс браузера будет таким же как время сеанса cookie "SESSION_COOKIE_AGE", определенное в settings.py
         return super(CustomLoginView, self).form_valid(form)
+
+
+class ChangePasswordView(PasswordChangeView):
+    template_name = 'registration/change_password.html'
+    success_message = "Successfully Changed Your Password"
+    success_url = reverse_lazy('users-profile')
+

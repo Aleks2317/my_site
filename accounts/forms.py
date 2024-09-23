@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from .models import Profile
 
 
 class SignUpForm(UserCreationForm):
@@ -28,3 +29,26 @@ class LoginForm(AuthenticationForm):
     class Meta:
         model = User
         fields = ['username', 'password', 'remember_me']
+
+
+class UpdateUserForm(forms.ModelForm):
+    '''Для обновления (изменения) имени и почты'''
+    username = forms.CharField(max_length=100,
+                               required=True,  # должен быть обязательно заполнен
+                               widget=forms.TextInput())
+    email = forms.EmailField(required=True,
+                             widget=forms.TextInput())
+
+    class Meta:
+        model = User
+        fields = ['username', 'email']
+
+
+class UpdateProfileForm(forms.ModelForm):
+    '''Для обновления (изменения) пользователем своих данных профиля'''
+    avatar = forms.ImageField(widget=forms.FileInput())
+    bio = forms.CharField(widget=forms.Textarea())
+
+    class Meta:
+        model = Profile
+        fields = ['avatar', 'bio']
