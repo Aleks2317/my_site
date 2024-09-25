@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.sitemaps',
     'django.contrib.postgres',
     'accounts.apps.AccountsConfig',
+    'social_django',
+    'django_bootstrap5',
 
 ]
 
@@ -71,6 +73,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -158,3 +162,14 @@ LOGIN_URL = '/accounts/login/'
 
 MEDIA_ROOT = BASE_DIR/'media'
 MEDIA_URL = '/media/'
+
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.github.GithubOAuth2',
+    'social_core.backends.google.GoogleOAuth2',
+
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+# social auth configs for github
+SOCIAL_AUTH_GITHUB_KEY = 'YOUR GITHUB CLIENT ID'
+SOCIAL_AUTH_GITHUB_SECRET = 'YOUR GITHUB SECRET KEY'
