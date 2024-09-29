@@ -47,8 +47,16 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'social_django',
     'django_bootstrap5',
-
+# API new
+    'rest_framework',
 ]
+
+REST_FRAMEWORK = {
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.AllowAny",
+    ],
+}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
